@@ -1,4 +1,6 @@
-﻿using ECommerce.Persistance.Contexts;
+﻿using ECommerce.Application.Repositories;
+using ECommerce.Persistance.Contexts;
+using ECommerce.Persistance.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,7 +18,8 @@ namespace ECommerce.Persistance
         {
             services.AddDbContext<CommerceContext>(options => options.UseMySQL(configuration.GetConnectionString("DefaultConnection")));
 
-           
+            services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
+            services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
         }
 
     }
