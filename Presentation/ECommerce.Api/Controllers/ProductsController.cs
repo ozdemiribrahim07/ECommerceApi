@@ -1,4 +1,7 @@
-﻿using ECommerce.Application.Features.Products.Queries.GetAllProducts;
+﻿using ECommerce.Application.Features.Products.Commands.AddProduct;
+using ECommerce.Application.Features.Products.Commands.DeleteProduct;
+using ECommerce.Application.Features.Products.Commands.UpdateProduct;
+using ECommerce.Application.Features.Products.Queries.GetAllProducts;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -23,6 +26,28 @@ namespace ECommerce.Api.Controllers
             return Ok(result);
         }
 
+
+        [HttpPost]
+        public async Task<IActionResult> CreateProduct([FromBody]AddProductCommandRequest request)
+        {
+            var result = await _mediator.Send(request);
+            return Ok(result);
+        }
+
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateProduct([FromBody]UpdateProductCommandRequest request)
+        {
+            await _mediator.Send(request);
+            return Ok();
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteProduct([FromBody] DeleteProductCommandRequest request)
+        {
+            await _mediator.Send(request);
+            return Ok();
+        }
 
 
     }
