@@ -46,24 +46,24 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 1,
-                            BrandName = "Kids",
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 99, DateTimeKind.Local).AddTicks(5714),
+                            BrandName = "Books & Kids",
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 648, DateTimeKind.Local).AddTicks(8929),
                             IsDeleted = false,
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 2,
-                            BrandName = "Baby, Books & Automotive",
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 99, DateTimeKind.Local).AddTicks(5817),
+                            BrandName = "Beauty & Industrial",
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 648, DateTimeKind.Local).AddTicks(8959),
                             IsDeleted = false,
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 3,
-                            BrandName = "Industrial & Electronics",
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 99, DateTimeKind.Local).AddTicks(5840),
+                            BrandName = "Industrial, Beauty & Automotive",
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 648, DateTimeKind.Local).AddTicks(8982),
                             IsDeleted = false,
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -97,7 +97,7 @@ namespace ECommerce.Persistance.Migrations
                         {
                             Id = 1,
                             CategoryName = "Ev Ürünleri",
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 102, DateTimeKind.Local).AddTicks(9860),
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 651, DateTimeKind.Local).AddTicks(9084),
                             IsDeleted = false,
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -105,7 +105,7 @@ namespace ECommerce.Persistance.Migrations
                         {
                             Id = 2,
                             CategoryName = "Elektronik",
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 102, DateTimeKind.Local).AddTicks(9870),
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 651, DateTimeKind.Local).AddTicks(9095),
                             IsDeleted = false,
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -163,12 +163,12 @@ namespace ECommerce.Persistance.Migrations
                             Id = 1,
                             BrandId = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 106, DateTimeKind.Local).AddTicks(2891),
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 655, DateTimeKind.Local).AddTicks(2880),
                             Description = "The Football Is Good For Training And Recreational Purposes",
                             Discount = 0m,
                             IsDeleted = false,
-                            Name = "Practical Cotton Computer",
-                            Price = 50.63m,
+                            Name = "Intelligent Steel Computer",
+                            Price = 18.91m,
                             Stock = 0,
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -177,12 +177,12 @@ namespace ECommerce.Persistance.Migrations
                             Id = 2,
                             BrandId = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 106, DateTimeKind.Local).AddTicks(2964),
-                            Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 655, DateTimeKind.Local).AddTicks(2969),
+                            Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
                             Discount = 0m,
                             IsDeleted = false,
-                            Name = "Sleek Concrete Bacon",
-                            Price = 47.53m,
+                            Name = "Practical Cotton Hat",
+                            Price = 39.49m,
                             Stock = 0,
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -191,12 +191,12 @@ namespace ECommerce.Persistance.Migrations
                             Id = 3,
                             BrandId = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 106, DateTimeKind.Local).AddTicks(2994),
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 655, DateTimeKind.Local).AddTicks(3005),
                             Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
                             Discount = 0m,
                             IsDeleted = false,
-                            Name = "Rustic Concrete Car",
-                            Price = 88.71m,
+                            Name = "Tasty Rubber Chair",
+                            Price = 8.33m,
                             Stock = 0,
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -205,12 +205,12 @@ namespace ECommerce.Persistance.Migrations
                             Id = 4,
                             BrandId = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 106, DateTimeKind.Local).AddTicks(3024),
-                            Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 655, DateTimeKind.Local).AddTicks(3035),
+                            Description = "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
                             Discount = 0m,
                             IsDeleted = false,
-                            Name = "Tasty Plastic Table",
-                            Price = 87.19m,
+                            Name = "Fantastic Granite Ball",
+                            Price = 74.11m,
                             Stock = 0,
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -219,12 +219,12 @@ namespace ECommerce.Persistance.Migrations
                             Id = 5,
                             BrandId = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 106, DateTimeKind.Local).AddTicks(3056),
-                            Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 655, DateTimeKind.Local).AddTicks(3065),
+                            Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
                             Discount = 0m,
                             IsDeleted = false,
-                            Name = "Intelligent Frozen Ball",
-                            Price = 43.84m,
+                            Name = "Handmade Cotton Chicken",
+                            Price = 4.69m,
                             Stock = 0,
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -267,40 +267,40 @@ namespace ECommerce.Persistance.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 110, DateTimeKind.Local).AddTicks(6194),
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 658, DateTimeKind.Local).AddTicks(4394),
                             IsDeleted = false,
-                            ProductDetailDescription = "Ea ipsum filmini quam voluptas.",
-                            ProductDetailTitle = "Perferendis.",
+                            ProductDetailDescription = "Tempora aut sarmal dolorem filmini.",
+                            ProductDetailTitle = "Magnam.",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 110, DateTimeKind.Local).AddTicks(6255),
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 658, DateTimeKind.Local).AddTicks(4447),
                             IsDeleted = false,
-                            ProductDetailDescription = "Mutlu nihil dolore domates aspernatur.",
-                            ProductDetailTitle = "Okuma.",
+                            ProductDetailDescription = "Quis gidecekmiş sokaklarda duyulmamış lakin.",
+                            ProductDetailTitle = "Nisi.",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 110, DateTimeKind.Local).AddTicks(6300),
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 658, DateTimeKind.Local).AddTicks(4540),
                             IsDeleted = false,
-                            ProductDetailDescription = "Adanaya patlıcan dışarı vel odio.",
-                            ProductDetailTitle = "Dolayı.",
+                            ProductDetailDescription = "Sıfat yapacakmış lambadaki accusantium iusto.",
+                            ProductDetailTitle = "Beatae.",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2024, 7, 9, 20, 2, 38, 110, DateTimeKind.Local).AddTicks(6342),
+                            CreatedDate = new DateTime(2024, 7, 12, 16, 0, 5, 658, DateTimeKind.Local).AddTicks(4651),
                             IsDeleted = false,
-                            ProductDetailDescription = "Sed laudantium teldeki aut corporis.",
-                            ProductDetailTitle = "Dolore.",
+                            ProductDetailDescription = "Aspernatur nisi quia ötekinden değirmeni.",
+                            ProductDetailTitle = "Ve.",
                             UpdatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });

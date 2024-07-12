@@ -116,9 +116,9 @@ namespace ECommerce.Persistance.Migrations
                 columns: new[] { "Id", "BrandName", "CreatedDate", "IsDeleted", "UpdatedDate" },
                 values: new object[,]
                 {
-                    { 1, "Kids", new DateTime(2024, 7, 9, 20, 2, 38, 99, DateTimeKind.Local).AddTicks(5714), false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, "Baby, Books & Automotive", new DateTime(2024, 7, 9, 20, 2, 38, 99, DateTimeKind.Local).AddTicks(5817), false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 3, "Industrial & Electronics", new DateTime(2024, 7, 9, 20, 2, 38, 99, DateTimeKind.Local).AddTicks(5840), false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 1, "Books & Kids", new DateTime(2024, 7, 12, 16, 0, 5, 648, DateTimeKind.Local).AddTicks(8929), false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, "Beauty & Industrial", new DateTime(2024, 7, 12, 16, 0, 5, 648, DateTimeKind.Local).AddTicks(8959), false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 3, "Industrial, Beauty & Automotive", new DateTime(2024, 7, 12, 16, 0, 5, 648, DateTimeKind.Local).AddTicks(8982), false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
 
             migrationBuilder.InsertData(
@@ -126,8 +126,8 @@ namespace ECommerce.Persistance.Migrations
                 columns: new[] { "Id", "CategoryName", "CreatedDate", "IsDeleted", "UpdatedDate" },
                 values: new object[,]
                 {
-                    { 1, "Ev Ürünleri", new DateTime(2024, 7, 9, 20, 2, 38, 102, DateTimeKind.Local).AddTicks(9860), false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, "Elektronik", new DateTime(2024, 7, 9, 20, 2, 38, 102, DateTimeKind.Local).AddTicks(9870), false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 1, "Ev Ürünleri", new DateTime(2024, 7, 12, 16, 0, 5, 651, DateTimeKind.Local).AddTicks(9084), false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, "Elektronik", new DateTime(2024, 7, 12, 16, 0, 5, 651, DateTimeKind.Local).AddTicks(9095), false, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
 
             migrationBuilder.InsertData(
@@ -135,10 +135,10 @@ namespace ECommerce.Persistance.Migrations
                 columns: new[] { "Id", "CategoryId", "CreatedDate", "IsDeleted", "ProductDetailDescription", "ProductDetailTitle", "UpdatedDate" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2024, 7, 9, 20, 2, 38, 110, DateTimeKind.Local).AddTicks(6194), false, "Ea ipsum filmini quam voluptas.", "Perferendis.", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, 2, new DateTime(2024, 7, 9, 20, 2, 38, 110, DateTimeKind.Local).AddTicks(6255), false, "Mutlu nihil dolore domates aspernatur.", "Okuma.", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 3, 1, new DateTime(2024, 7, 9, 20, 2, 38, 110, DateTimeKind.Local).AddTicks(6300), false, "Adanaya patlıcan dışarı vel odio.", "Dolayı.", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 4, 2, new DateTime(2024, 7, 9, 20, 2, 38, 110, DateTimeKind.Local).AddTicks(6342), false, "Sed laudantium teldeki aut corporis.", "Dolore.", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 1, 1, new DateTime(2024, 7, 12, 16, 0, 5, 658, DateTimeKind.Local).AddTicks(4394), false, "Tempora aut sarmal dolorem filmini.", "Magnam.", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, 2, new DateTime(2024, 7, 12, 16, 0, 5, 658, DateTimeKind.Local).AddTicks(4447), false, "Quis gidecekmiş sokaklarda duyulmamış lakin.", "Nisi.", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 3, 1, new DateTime(2024, 7, 12, 16, 0, 5, 658, DateTimeKind.Local).AddTicks(4540), false, "Sıfat yapacakmış lambadaki accusantium iusto.", "Beatae.", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 4, 2, new DateTime(2024, 7, 12, 16, 0, 5, 658, DateTimeKind.Local).AddTicks(4651), false, "Aspernatur nisi quia ötekinden değirmeni.", "Ve.", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
 
             migrationBuilder.InsertData(
@@ -146,11 +146,11 @@ namespace ECommerce.Persistance.Migrations
                 columns: new[] { "Id", "BrandId", "CategoryId", "CreatedDate", "Description", "Discount", "IsDeleted", "Name", "Price", "Stock", "UpdatedDate" },
                 values: new object[,]
                 {
-                    { 1, 1, 1, new DateTime(2024, 7, 9, 20, 2, 38, 106, DateTimeKind.Local).AddTicks(2891), "The Football Is Good For Training And Recreational Purposes", 0m, false, "Practical Cotton Computer", 50.63m, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, 2, 2, new DateTime(2024, 7, 9, 20, 2, 38, 106, DateTimeKind.Local).AddTicks(2964), "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", 0m, false, "Sleek Concrete Bacon", 47.53m, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 3, 1, 1, new DateTime(2024, 7, 9, 20, 2, 38, 106, DateTimeKind.Local).AddTicks(2994), "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", 0m, false, "Rustic Concrete Car", 88.71m, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 4, 1, 1, new DateTime(2024, 7, 9, 20, 2, 38, 106, DateTimeKind.Local).AddTicks(3024), "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", 0m, false, "Tasty Plastic Table", 87.19m, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 5, 2, 2, new DateTime(2024, 7, 9, 20, 2, 38, 106, DateTimeKind.Local).AddTicks(3056), "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", 0m, false, "Intelligent Frozen Ball", 43.84m, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 1, 1, 1, new DateTime(2024, 7, 12, 16, 0, 5, 655, DateTimeKind.Local).AddTicks(2880), "The Football Is Good For Training And Recreational Purposes", 0m, false, "Intelligent Steel Computer", 18.91m, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, 2, 2, new DateTime(2024, 7, 12, 16, 0, 5, 655, DateTimeKind.Local).AddTicks(2969), "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients", 0m, false, "Practical Cotton Hat", 39.49m, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 3, 1, 1, new DateTime(2024, 7, 12, 16, 0, 5, 655, DateTimeKind.Local).AddTicks(3005), "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016", 0m, false, "Tasty Rubber Chair", 8.33m, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 4, 1, 1, new DateTime(2024, 7, 12, 16, 0, 5, 655, DateTimeKind.Local).AddTicks(3035), "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive", 0m, false, "Fantastic Granite Ball", 74.11m, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 5, 2, 2, new DateTime(2024, 7, 12, 16, 0, 5, 655, DateTimeKind.Local).AddTicks(3065), "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles", 0m, false, "Handmade Cotton Chicken", 4.69m, 0, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
 
             migrationBuilder.CreateIndex(
