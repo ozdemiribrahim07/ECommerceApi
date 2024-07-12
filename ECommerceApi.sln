@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Infrastructure", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Persistance", "Insfrastructure\ECommerce.Persistance\ECommerce.Persistance.csproj", "{CE4DA6F2-B980-4D99-B403-42ADE47F2EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api", "Presentation\ECommerce.Api\ECommerce.Api.csproj", "{D736B837-C265-4C0C-B4DD-1236BF6022AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api", "Presentation\ECommerce.Api\ECommerce.Api.csproj", "{D736B837-C265-4C0C-B4DD-1236BF6022AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Mapper", "Core\ECommerce.Mapper\ECommerce.Mapper.csproj", "{F9B00AB3-1F72-41F7-9029-06663EA158D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D736B837-C265-4C0C-B4DD-1236BF6022AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D736B837-C265-4C0C-B4DD-1236BF6022AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D736B837-C265-4C0C-B4DD-1236BF6022AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B00AB3-1F72-41F7-9029-06663EA158D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B00AB3-1F72-41F7-9029-06663EA158D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B00AB3-1F72-41F7-9029-06663EA158D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B00AB3-1F72-41F7-9029-06663EA158D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{276E3138-13C6-4B7B-B960-F8B2267D635E} = {72DE4BE8-9487-4ABF-8629-9C154B51A4B9}
 		{CE4DA6F2-B980-4D99-B403-42ADE47F2EC1} = {72DE4BE8-9487-4ABF-8629-9C154B51A4B9}
 		{D736B837-C265-4C0C-B4DD-1236BF6022AB} = {726CAE47-F171-4B58-B738-FE8316CA842F}
+		{F9B00AB3-1F72-41F7-9029-06663EA158D9} = {09BD6C1D-3A23-4871-8A60-75D26C72D1B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64301460-3160-4674-AFAA-0CED4EDBFB46}
